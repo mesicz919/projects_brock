@@ -1,0 +1,986 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 APR 2020 19:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"5P08 Project.tex"
+(./5P08 Project.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@caption@flags=\count88
+\c@ContinuedFloat=\count89
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count90
+\c@subtable=\count91
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks15
+)
+(./5P08 Project.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `"5P08 Project.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen120
+\scratchbox=\box27
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen121
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks17
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(36.135pt, 542.02501pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=542.02501pt
+* \textheight=722.7pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 27.
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 43.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 43.
+ [2]
+(./5P08 Project.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `"5P08 Project.toc"'.
+
+ [3]
+<1.png, id=19, 586.19pt x 426.59375pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 66.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+<1a.png, id=21, 586.19pt x 426.59375pt>
+File: 1a.png Graphic file (type png)
+<use 1a.png>
+Package pdftex.def Info: 1a.png  used on input line 72.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+ [4 <./1.png> <./1a.png>]
+<2.png, id=28, 586.19pt x 428.60126pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 96.
+(pdftex.def)             Requested size: 263.78307pt x 192.86877pt.
+<3.png, id=29, 586.19pt x 428.60126pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 102.
+(pdftex.def)             Requested size: 263.78307pt x 192.86877pt.
+ [5 <./2.png> <./3.png>]
+<5.png, id=35, 586.19pt x 428.60126pt>
+File: 5.png Graphic file (type png)
+<use 5.png>
+Package pdftex.def Info: 5.png  used on input line 130.
+(pdftex.def)             Requested size: 439.64142pt x 321.45015pt.
+
+[6 <./5.png>]
+<4.png, id=40, 586.19pt x 428.60126pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 156.
+(pdftex.def)             Requested size: 439.64142pt x 321.45015pt.
+ [7 <./4.png>]
+<hp2.png, id=46, 586.19pt x 426.59375pt>
+File: hp2.png Graphic file (type png)
+<use hp2.png>
+Package pdftex.def Info: hp2.png  used on input line 184.
+(pdftex.def)             Requested size: 293.09428pt x 213.29634pt.
+ [8 <./hp2.png>]
+<hp1.png, id=53, 586.19pt x 426.59375pt>
+File: hp1.png Graphic file (type png)
+<use hp1.png>
+Package pdftex.def Info: hp1.png  used on input line 205.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+<hp3.png, id=54, 586.19pt x 426.59375pt>
+File: hp3.png Graphic file (type png)
+<use hp3.png>
+Package pdftex.def Info: hp3.png  used on input line 211.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+ [9 <./hp1.png> <./hp3.png>]
+<11.png, id=60, 586.19pt x 426.59375pt>
+File: 11.png Graphic file (type png)
+<use 11.png>
+Package pdftex.def Info: 11.png  used on input line 240.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+<10.png, id=61, 586.19pt x 426.59375pt>
+File: 10.png Graphic file (type png)
+<use 10.png>
+Package pdftex.def Info: 10.png  used on input line 246.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+
+Underfull \hbox (badness 1448) in paragraph at lines 248--248
+[]\OT1/cmr/m/n/10.95 (b) |Log-Linear De-trend-ing: GDP and Com-po-nents
+ []
+
+[10 <./11.png> <./10.png>]
+<6.png, id=68, 586.19pt x 426.59375pt>
+File: 6.png Graphic file (type png)
+<use 6.png>
+Package pdftex.def Info: 6.png  used on input line 270.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+<7.png, id=69, 586.19pt x 426.59375pt>
+File: 7.png Graphic file (type png)
+<use 7.png>
+Package pdftex.def Info: 7.png  used on input line 276.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+ [11 <./6.png> <./7.png>]
+<13.png, id=75, 586.19pt x 426.59375pt>
+File: 13.png Graphic file (type png)
+<use 13.png>
+Package pdftex.def Info: 13.png  used on input line 304.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+<12.png, id=76, 586.19pt x 426.59375pt>
+File: 12.png Graphic file (type png)
+<use 12.png>
+Package pdftex.def Info: 12.png  used on input line 309.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+ [12 <./13.png> <./12.png>]
+<8.png, id=82, 586.19pt x 426.59375pt>
+File: 8.png Graphic file (type png)
+<use 8.png>
+Package pdftex.def Info: 8.png  used on input line 333.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+<9.png, id=83, 586.19pt x 426.59375pt>
+File: 9.png Graphic file (type png)
+<use 9.png>
+Package pdftex.def Info: 9.png  used on input line 338.
+(pdftex.def)             Requested size: 263.78307pt x 191.96541pt.
+
+[13 <./8.png> <./9.png>]
+Overfull \hbox (21.33385pt too wide) in paragraph at lines 366--374
+ [][] 
+ []
+
+[14]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 415.
+ [15]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 455.
+ [16]
+LaTeX Font Info:    Font shape `OT1/cmtt/m/ui' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/it' tried instead on input line 857.
+
+
+Overfull \hbox (131.17526pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("UK GDP and Components (expenditure approach), 198
+8-2018") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millio
+ns)")[] 
+ []
+
+[17]
+Overfull \hbox (155.87527pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("UK Log-GDP and Components (expenditure approach),
+ 1988-2018") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in mi
+llions)")[] 
+ []
+
+
+Overfull \hbox (19.90027pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(Trade_Balance, series="UK Trade Balance") + auto
+layer(NIIP, series="UK NIIP") +[] 
+ []
+
+
+Overfull \hbox (328.77536pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("UK Balance of Payments Data, 1990-2018") + xlab("
+Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millions)") + guides(co
+lour=guide_legend(title="Variables"))[] 
+ []
+
+
+Overfull \hbox (526.25052pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(Current_Account_GDP) + autolayer(Current_Account_GD
+P, series="Current Account (as % of GDP)") + autolayer(Trade_Balance_GDP, serie
+s="Trade Balance (as % of GDP)") +[] 
+ []
+
+
+Overfull \hbox (7.6752pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[18]
+Overfull \hbox (396.57545pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(Trade_EU) + autolayer(Trade_EU, series="Trade Balan
+ce w/ EU countries") + autolayer(Trade_non_EU, series="Trade Balance w/ non-EU 
+countries") +[] 
+ []
+
+
+Overfull \hbox (180.45035pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("Trade Balance (in millions of pounds)
+") + guides(colour=guide_legend(title="Bilateral Trade"))[] 
+ []
+
+
+Overfull \hbox (236.02538pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(TB_US) + autolayer(TB_FRA, series="Trade Balance w/
+ France") + autolayer(TB_DEU, series="Trade Balance w/ Germany") +[] 
+ []
+
+
+Overfull \hbox (168.10034pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(TB_NED, series="Trade Balance w/ Netherlands") +
+ autolayer(TB_CHINA, series="Trade Balance w/ China") +[] 
+ []
+
+
+Overfull \hbox (174.27534pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("Trade Balance (in millions of pounds)
+") + guides(colour=guide_legend(title="Trade Partners"))[] 
+ []
+
+
+Overfull \hbox (1.37526pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 Detrended_Current_Account<- ts(Detrended_Current_Account,sta
+rt=c(1988,1), end=c(2018,1))[] 
+ []
+
+[19]
+Overfull \hbox (155.87527pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("HP Filter Detrending: GDP and Components (trend c
+omponents)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in mi
+llions)")[] 
+ []
+
+
+Overfull \hbox (149.57533pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(Detrended_Current_Account) + autolayer(Detrended_Cu
+rrent_Account, series="Detrended Current Account") +[] 
+ []
+
+
+Overfull \hbox (50.90022pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("HP Filter Detrending: CA and TB, 1988-2018") + xl
+ab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millions)")[] 
+ []
+
+
+Overfull \hbox (168.22528pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("HP Filter Detrending: GDP and Components (cyclica
+l component)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in 
+millions)")[] 
+ []
+
+[20]
+Overfull \hbox (44.60028pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(residuals) + autolayer(residuals, series="Cyclical 
+Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (303.95041pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(residuals2, series="Cyclical Component of UK Tra
+de Balance") + autolayer(residuals3, series="Cyclical Component of UK GDP") +[]
+ 
+ []
+
+
+Overfull \hbox (7.6752pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[21]
+Overfull \hbox (155.75034pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(residuals6, series="Cyclical Gov't Spending") + 
+autolayer(residuals7, series="Cyclical UK Exports") +[] 
+ []
+
+
+Overfull \hbox (273.0754pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(residuals8, series="Cyclical UK Imports") + ggti
+tle("Log-Linear Detrending: Cyclical Components of UK GDP, 1990-2018") +[] 
+ []
+
+
+Overfull \hbox (57.07523pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Components of GDP"))[] 
+ []
+
+
+Overfull \hbox (56.95029pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(residuals9) + autolayer(residuals9, series="Cyclica
+l Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (316.30042pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(residuals10, series="Cyclical Component of UK Tr
+ade Balance") + autolayer(residuals11, series="Cyclical Component of UK GDP") +
+[] 
+ []
+
+
+Overfull \hbox (7.6752pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[22]
+Overfull \hbox (168.10034pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(residuals14, series="Cyclical Gov't Spending") +
+ autolayer(residuals15, series="Cyclical UK Exports") +[] 
+ []
+
+
+Overfull \hbox (229.85037pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 autolayer(residuals16, series="Cyclical UK Imports") + ggt
+itle("Log-Quadratic Detrending: Cyclical Components of UK GDP") +[] 
+ []
+
+
+Overfull \hbox (57.07523pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Components of GDP"))[] 
+ []
+
+
+Overfull \hbox (162.05028pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("Log-Linear Detrending: GDP and Components (trend 
+components)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in m
+illions)")[] 
+ []
+
+
+Overfull \hbox (112.52531pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(trend_CA_log_det) + autolayer(trend_CA_log_det, ser
+ies="Trend Component of UK Current Account") +[] 
+ []
+
+[23]
+Overfull \hbox (7.6752pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+
+Overfull \hbox (118.82526pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 ggtitle("Log-Quadtratic Detrending: GDP and Components (tr
+end)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millions
+)")[] 
+ []
+
+
+Overfull \hbox (75.4753pt too wide) in paragraph at lines 857--857
+[]\OT1/cmtt/m/n/12 autoplot(trend_CA_quad) + autolayer(trend_CA_quad, series="T
+rend Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (7.6752pt too wide) in paragraph at lines 857--857
+[]  \OT1/cmtt/m/n/12 xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 
+(in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[24]
+Overfull \hbox (19.90027pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 trying URL 'https://cran.rstudio.com/bin/macosx/el-capitan/c
+ontrib/3.6/psych_1.9.12.31.tgz'[] 
+ []
+
+
+Overfull \hbox (7.55026pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 trying URL 'https://cran.rstudio.com/bin/macosx/el-capitan/c
+ontrib/3.6/ggplot2_3.3.0.tgz'[] 
+ []
+
+
+Overfull \hbox (7.55026pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 trying URL 'https://cran.rstudio.com/bin/macosx/el-capitan/c
+ontrib/3.6/forecast_8.11.tgz'[] 
+ []
+
+[25]
+Overfull \hbox (143.52527pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("UK GDP and Components (expenditure approach), 1
+988-2018") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in mill
+ions)")[] 
+ []
+
+[26]
+Overfull \hbox (168.22528pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("UK Log-GDP and Components (expenditure approach
+), 1988-2018") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in 
+millions)")[] 
+ []
+
+
+Overfull \hbox (32.25027pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(Trade_Balance, series="UK Trade Balance") + au
+tolayer(NIIP, series="UK NIIP") +[] 
+ []
+
+
+Overfull \hbox (341.12537pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("UK Balance of Payments Data, 1990-2018") + xlab
+("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millions)") + guides(
+colour=guide_legend(title="Variables"))[] 
+ []
+
+
+Overfull \hbox (538.60052pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(Current_Account_GDP) + autolayer(Current_Account_
+GDP, series="Current Account (as % of GDP)") + autolayer(Trade_Balance_GDP, ser
+ies="Trade Balance (as % of GDP)") +[] 
+ []
+
+
+Overfull \hbox (20.0252pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+
+Overfull \hbox (408.92546pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(Trade_EU) + autolayer(Trade_EU, series="Trade Bal
+ance w/ EU countries") + autolayer(Trade_non_EU, series="Trade Balance w/ non-E
+U countries") +[] 
+ []
+
+
+Overfull \hbox (192.80035pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("Trade Balance (in millions of pound
+s)") + guides(colour=guide_legend(title="Bilateral Trade"))[] 
+ []
+
+
+Overfull \hbox (248.37538pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(TB_US) + autolayer(TB_FRA, series="Trade Balance 
+w/ France") + autolayer(TB_DEU, series="Trade Balance w/ Germany") +[] 
+ []
+
+[27]
+Overfull \hbox (180.45035pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(TB_NED, series="Trade Balance w/ Netherlands")
+ + autolayer(TB_CHINA, series="Trade Balance w/ China") +[] 
+ []
+
+
+Overfull \hbox (186.62535pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("Trade Balance (in millions of pound
+s)") + guides(colour=guide_legend(title="Trade Partners"))[] 
+ []
+
+
+Overfull \hbox (13.72527pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > Detrended_Current_Account<- ts(Detrended_Current_Account,s
+tart=c(1988,1), end=c(2018,1))[] 
+ []
+
+
+Overfull \hbox (168.22528pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("HP Filter Detrending: GDP and Components (trend
+ components)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in 
+millions)")[] 
+ []
+
+
+Overfull \hbox (161.92534pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(Detrended_Current_Account) + autolayer(Detrended_
+Current_Account, series="Detrended Current Account") +[] 
+ []
+
+
+Overfull \hbox (63.25023pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("HP Filter Detrending: CA and TB, 1988-2018") + 
+xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millions)")[] 
+ []
+
+[28]
+Overfull \hbox (180.57529pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("HP Filter Detrending: GDP and Components (cycli
+cal component)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (i
+n millions)")[] 
+ []
+
+[29]
+Overfull \hbox (56.95029pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(residuals) + autolayer(residuals, series="Cyclica
+l Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (316.30042pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(residuals2, series="Cyclical Component of UK T
+rade Balance") + autolayer(residuals3, series="Cyclical Component of UK GDP") +
+[] 
+ []
+
+
+Overfull \hbox (20.0252pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[30] [31] [32]
+Overfull \hbox (168.10034pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(residuals6, series="Cyclical Gov't Spending") 
++ autolayer(residuals7, series="Cyclical UK Exports") +[] 
+ []
+
+
+Overfull \hbox (285.4254pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(residuals8, series="Cyclical UK Imports") + gg
+title("Log-Linear Detrending: Cyclical Components of UK GDP, 1990-2018") +[] 
+ []
+
+
+Overfull \hbox (69.42523pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Components of GDP"))[] 
+ []
+
+
+Overfull \hbox (106.35031pt too wide) in paragraph at lines 1590--1590
+[]  \OT1/cmtt/m/n/12 [1]   1   4   9  16  25  36  49  64  81 100 121 144 169 19
+6 225 256 289 324 361 400 441 484 529 576 625[] 
+ []
+
+
+Overfull \hbox (106.35031pt too wide) in paragraph at lines 1590--1590
+[] \OT1/cmtt/m/n/12 [26] 676 729 784 841 900 961  NA  NA  NA  NA  NA  NA  NA  N
+A  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA[] 
+ []
+
+
+Overfull \hbox (106.35031pt too wide) in paragraph at lines 1590--1590
+[] \OT1/cmtt/m/n/12 [51]  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  N
+A  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA[] 
+ []
+
+
+Overfull \hbox (106.35031pt too wide) in paragraph at lines 1590--1590
+[] \OT1/cmtt/m/n/12 [76]  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  N
+A  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA[] 
+ []
+
+
+Overfull \hbox (7.55026pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 [101]  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  NA  N
+A  NA  NA  NA  NA  NA  NA  NA[] 
+ []
+
+[33] [34]
+Overfull \hbox (69.3003pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(residuals9) + autolayer(residuals9, series="Cycli
+cal Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (328.65042pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(residuals10, series="Cyclical Component of UK 
+Trade Balance") + autolayer(residuals11, series="Cyclical Component of UK GDP")
+ +[] 
+ []
+
+
+Overfull \hbox (20.0252pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[35] [36] [37]
+Overfull \hbox (180.45035pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(residuals14, series="Cyclical Gov't Spending")
+ + autolayer(residuals15, series="Cyclical UK Exports") +[] 
+ []
+
+
+Overfull \hbox (242.20038pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   autolayer(residuals16, series="Cyclical UK Imports") + g
+gtitle("Log-Quadratic Detrending: Cyclical Components of UK GDP") +[] 
+ []
+
+
+Overfull \hbox (69.42523pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Components of GDP"))[] 
+ []
+
+
+Overfull \hbox (174.40028pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("Log-Linear Detrending: GDP and Components (tren
+d components)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in
+ millions)")[] 
+ []
+
+
+Overfull \hbox (124.87532pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(trend_CA_log_det) + autolayer(trend_CA_log_det, s
+eries="Trend Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (20.0252pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[38]
+Overfull \hbox (131.17526pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   ggtitle("Log-Quadtratic Detrending: GDP and Components (
+trend)") + xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/12 (in millio
+ns)")[] 
+ []
+
+
+Overfull \hbox (87.8253pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 > autoplot(trend_CA_quad) + autolayer(trend_CA_quad, series=
+"Trend Component of UK Current Account") +[] 
+ []
+
+
+Overfull \hbox (20.0252pt too wide) in paragraph at lines 1590--1590
+[]\OT1/cmtt/m/n/12 +   xlab("Year") + ylab("\OT1/cmtt/m/it/12 $ \OT1/cmtt/m/n/1
+2 (in millions)") + guides(colour=guide_legend(title="Variables"))[] 
+ []
+
+[39] (./5P08 Project.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3347 strings out of 492616
+ 52312 string characters out of 6129482
+ 138110 words of memory out of 5000000
+ 7218 multiletter control sequences out of 15000+600000
+ 11624 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,11n,39p,655b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
+b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "5P08 Project.pdf" (39 pages, 964995 bytes).
+PDF statistics:
+ 243 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}BoP Data: GDP, Current Account, Trade Balance, \& NIIP}{4}% 
+\contentsline {subsection}{\numberline {1.1}GDP (expenditure approach)}{4}% 
+\contentsline {subsection}{\numberline {1.2}Current Account, Trade Balance, \& NIIP}{5}% 
+\contentsline {subsubsection}{\numberline {1.2.1}Current Account}{5}% 
+\contentsline {subsubsection}{\numberline {1.2.2}Trade Balance}{5}% 
+\contentsline {subsubsection}{\numberline {1.2.3}NIIP}{5}% 
+\contentsline {section}{\numberline {2}Bilateral Trade}{6}% 
+\contentsline {subsection}{\numberline {2.1}Trade with Major Trading Partners}{6}% 
+\contentsline {subsection}{\numberline {2.2}Trade with EU vs. non-EU Countries}{7}% 
+\contentsline {section}{\numberline {3}HP Filter Detrending}{8}% 
+\contentsline {subsection}{\numberline {3.1}Trade Balance and Current Account}{8}% 
+\contentsline {subsection}{\numberline {3.2}GDP and Components}{9}% 
+\contentsline {section}{\numberline {4}Log-Linear Detrending}{10}% 
+\contentsline {subsection}{\numberline {4.1}Trend Components}{10}% 
+\contentsline {subsection}{\numberline {4.2}Cyclical Components}{11}% 
+\contentsline {section}{\numberline {5}Log-Quadratic Detrending}{12}% 
+\contentsline {subsection}{\numberline {5.1}Trend Components}{12}% 
+\contentsline {subsection}{\numberline {5.2}Cyclical Components}{13}% 
+\contentsline {section}{\numberline {6}Log-Quadtratic Detrending and Business Cycle Facts}{14}% 
+\contentsline {subsection}{\numberline {6.1}Standard Deviations}{14}% 
+\contentsline {subsection}{\numberline {6.2}Correlations with Output}{14}% 
+\contentsline {subsection}{\numberline {6.3}Serial Correlations}{15}% 
+\contentsline {subsection}{\numberline {6.4}Output Ratios}{15}% 
+\contentsline {section}{\numberline {7}Bibliography}{16}% 
+\contentsline {section}{\numberline {8}Coding and Output}{17}% 
+\contentsline {subsection}{\numberline {8.1}Coding}{17}% 
+\contentsline {subsection}{\numberline {8.2}Output}{24}% 
