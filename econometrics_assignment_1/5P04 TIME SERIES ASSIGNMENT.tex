@@ -1,0 +1,577 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{relsize}
+\usepackage{url}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+
+
+
+\begin{document}
+
+
+\title{ ECON 5P04: Unemployment Rate Forecast}
+\author{OKONKWO IFEANYI (5770219) and ZACH MESIC (5820105)}
+\date{\today} 
+\maketitle
+
+
+\newpage
+\tableofcontents
+
+\newpage
+\section{Introduction}
+The civilian unemployment rate represents the number of unemployed as a percentage of the labor force. It contains monthly, not seasonally adjusted U.S data from January 2010 to March 1, 2020. Data was retrieved from FRED and originates from the Current Population Survey (Household Survey). 
+
+\section{Trend and Seasonality}
+A time series and seasonal plot were generated for the years 2010 to 2020 and reported in figures 1 and 2. A steady decreasing trend can be observed in civilian unemployment rates from the time series plot,  this has been the case since the end of the 2007-2009 recession. The decrease in unemployment rate can be attributed to the decreasing trend in the number of civilian in the Labor force of the United states.
+The seasonality plot displays monthly(seasonal) effects within the data. It is clear that Unemployment rate is on a steady decline between January and April and starts to increase again between May and July. This slight increase can be attributed to teens and young adults who have recently graduated and are in search for employment opportunities to match their skillset. In the Fall and Winter periods the unemployment rate stabilizes as recent graduates are expected to have been matched with employers and teenagers return to school concentrating on full time studies.
+
+\newpage
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot.eps} 
+\label{fig:1}
+\end{center}
+\caption{ Unemployment rate time series plot}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot1.eps} 
+\label{fig:2}
+\end{center}
+\caption{ Unemployment rate seasonality plot}
+\end{figure}
+\break
+
+
+
+
+\section{Autocorrelation}
+As observed in previous plots the data consist of seasonal components as well as a declining trend. Therefore, as a result of the trend component, large and positive values that slowly decay as lags increase can be observed from the correlogram and table 1. This means that individual periods have positive correlation with one another and decrease as period lags increase (Observations nearby in time are also nearby in size). 
+
+
+\begin{table}[!htbp] \centering
+\caption{Correlogram and Autocorrelation values.}
+\label{}
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& Lag & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline \\[-1.8ex]
+& Correlation & $0.96$ & $0.93$ & $0.89$ & $0.88$ & $0.88$ & $0.87$ & $0.83$ & $0.80$ & $0.77$ & $0.76$  \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot2.eps} 
+\label{fig:3}
+\end{center}
+\caption{ Correlogram}
+\end{figure}
+
+\newpage
+\section{Forecasting}
+A visualization of Accuracy for forecast generated using the Average, Naive and Seasonal Naive  forecasting methods is provided in figure 4. 
+To determine the accuracy of forecasting methods , the data is split into a training set (Jan 2010-Dec 2017) and a test set (Jan 2018- Feb 2020), Afterwards the aforementioned forecasting methods are used over the training set and measured to determine which method provides the best fitting result in comparison to the test set. 
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot4.eps} 
+\label{fig:4}
+\end{center}
+\caption{Forecasting Methods}
+\end{figure}
+
+Accuracy is also determined  numerically through error measurement and a graphical representation of each method alongside the test set. According to the tabulated error measurement values in table 2, the naive method is determined to be the best fit based on the fact that it minimizes the error in forecasting better than the average and seasonal naive method, Although based on graphical observation, the Seasonal Naive method best fits the Test set. The Naive method provides a constant forecast across all months and does not take into consideration the seasonality component of the data similar to the Average method. Therefore, we conclude that the seasonal naive method is the best forecasting method as does an excellent job capturing the seasonality component of the data  compared to the other two methods.
+
+\begin{table}[!htbp] \centering 
+  \caption{Measures of accuracy.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & & RMSE & MAE & MAPE & MASE \\ 
+\hline \\[-1.8ex] 
+\textbf{Average} & Training set & $1.892$ & $1.685$ & $27.145$ & $2.240$ \\ 
+& Test set & $3.064$ & $3.043$ & $81.842$ & $4.045$ \\ 
+\textbf{Naive} & Training set & $0.349$ & $0.279$ & $4.242$ & $0.371$ \\ 
+& Test set & $0.374$ & $0.315$ & $8.585$ & $0.419$ \\ 
+\textbf{Seasonal Naive} & Training set & $0.816$ & $0.752$ & $12.172$ & $1$ \\ 
+& Test set & $0.642$ & $0.608$ & $16.164$ & $0.808$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Mean forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\
+\hline \\[-1.8ex] 
+2018 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 &  6.84 &  6.84 & 6.84 \\
+2019 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 & 6.84 \\
+2020 & 6.84 & 6.84 & - & - & - & - & - & - & - & - & - & -\\   
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+                                                 
+  
+\begin{table}[!htbp] \centering 
+  \caption{Naive forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\
+2018 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 \\
+2019 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 \\
+2020 & 3.9 & 3.9 & - & - & - & - & - & - & - & - & - & - \\
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Seasonal naive forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 5.1 & 4.9 & 4.6 & 4.1 & 4.1 & 4.5 & 4.6 & 4.5 & 4.1 & 3.9 & 3.9 & 3.9 \\
+2019 & 5.1 & 4.9 & 4.6 & 4.1 & 4.1 & 4.5 & 4.6 & 4.5 & 4.1 & 3.9 & 3.9 & 3.9 \\
+2020 & 5.1 & 4.9 & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+\break
+
+\section{Regression based forecasting analysis}
+The following tables reports regression values for trend, seasonal dummies  and Trend with seasonal dummies forecasting models. The best forecasting model is determined by assessing the R squared and Adjusted R squared to determine the goodness of fit of each model. The Trend with seasonal dummies model is concluded to be the best and most accurate forecast model. This decision is supported by our Time series plot as we already analyzed the Unemployment rate variable to exhibit a declining trend.  Furthermore, the Check residual function in R programming is used to validate our decision in selecting the Trend with Seasonal dummies forecast as the best model compared to Trend and seasonal Models. The graphics generated using the Check Residual  function by R program are reported in figures 5,6 and 7.  From the visual representation we can observe seasonal patterns in the residuals time plot obtained from the Trend only forecasting model and the seasonal forecasting model residuals exhibit a declining trend. The Trend with seasonal dummies model Residual time plot contains no observable Trend or seasonal Patterns, and it?s mean is closely centered around Zero, Thus validating our decision to select this model as the most accurate model between the three.
+
+
+
+\break
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Trend-only regression results.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+ \toprule
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Call: tslm(formula = unrtrain $\sim$ trend) & & & & & \\
+\midrule
+Residuals:  \\
+Min    &    1Q  &  Median    &    3Q    &   Max \\
+-0.70106 & -0.30502  & 0.00026  & 0.26722 &  0.89454 \\
+\\
+Coefficients:  \\
+  &      Estimate & Std. Error & t value & Pr(>|t|)   \\ 
+(Intercept) & 10.082982  &  0.077165 &  130.67  &  <2e-16 *** \\
+trend   &     -0.066960 &   0.001381 &  -48.47  &  <2e-16 ***  \\
+\hline \\[-1.8ex] 
+\bottomrule
+ \end{tabular}
+ \begin{tablenotes}
+      \small
+      \item Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+\item Residual standard error: 0.3751 on 94 degrees of freedom
+\item Multiple R-squared:  0.9615,	Adjusted R-squared:  0.9611
+\item F-statistic:  2349 on 1 and 94 DF,  p-value: < 2.2e-16
+\end{tablenotes}
+  \end{threeparttable}
+\end{table} 
+
+\break
+
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Seasonal dummies-only regression results.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+ \toprule
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Call: \\
+tslm(formula = \\
+unrtrain $\sim$ season) \\
+\midrule
+Residuals: \\
+ &  Min  &    1Q & Median  &    3Q   &  Max \\
+& -2.587 & -1.669 & -0.075 &  1.581 &  3.038 \\
+\\
+Coefficients: \\
+     &        Estimate & Std. Error & t value & Pr(>|t|)    \\
+(Intercept) &   7.6500   &   0.6951 &  11.006  &  <2e-16 *** \\
+season2    &   -0.2000  &    0.9830 &  -0.203  &   0.839     \\
+season3   &    -0.4625  &    0.9830  & -0.470  &   0.639    \\
+season4    &   -1.0500   &   0.9830 & -1.068  &   0.289    \\
+season5    &   -1.0000  &    0.9830 &  -1.017  &   0.312    \\
+season6   &    -0.5875  &    0.9830 &  -0.598   &  0.552    \\
+season7   &    -0.5125  &    0.9830 &  -0.521  &   0.603    \\
+season8   &    -0.7625  &    0.9830 &  -0.776  &   0.440   \\ 
+season9    &   -1.1375  &    0.9830  & -1.157  &   0.250    \\
+season10   &   -1.2875  &    0.9830 &  -1.310   &  0.194    \\
+season11    &  -1.3875  &    0.9830  & -1.411   &  0.162    \\
+season12  &    -1.3875   &   0.9830 &   -1.411  &   0.162    \\
+\hline \\[-1.8ex] 
+\bottomrule
+ \end{tabular}
+ \begin{tablenotes}
+      \small
+      \item Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+\item Residual standard error: 1.966 on 84 degrees of freedom
+\item Multiple R-squared:  0.0555,	Adjusted R-squared:  -0.06818 
+\item F-statistic: 0.4487 on 11 and 84 DF,  p-value: 0.9288
+\end{tablenotes}
+  \end{threeparttable}
+\end{table} 
+
+
+
+\break
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Trend with seasonal dummies regression results.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+ \toprule
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Call: \\
+tslm(formula = \\
+unrtrain $\sim$ trend + season) \\
+\midrule\
+Residuals: \\
+ & Min   &    1Q  & Median  &     3Q  &    Max \\
+& 0.4944 & -0.1761 &  0.0375 &   0.2221  & 0.4523 \\
+\\
+Coefficients: \\
+     &         Estimate & Std. Error & t value & Pr(>|t|)    \\
+(Intercept) & 10.5003142 &  0.1024510 & 102.491 &  < 2e-16 *** \\
+trend    &    -0.0662864  & 0.0009804 & -67.614  & < 2e-16 *** \\
+season2  &    -0.1337136  & 0.1320577  & -1.013   & 0.3142    \\
+season3   &   -0.3299272  & 0.1320686  & -2.498 &   0.0145 * \\ 
+season4  &    -0.8511409  & 0.1320868  & -6.444 & 7.22e-09 *** \\
+season5  &    -0.7348545 &   0.1321122 &  -5.562 & 3.17e-07 *** \\
+season6  &    -0.2560681 &  0.1321450 &  -1.938  &  0.0561 .  \\
+season7   &   -0.1147817  & 0.1321850  & -0.868  &  0.3877    \\
+season8   &   -0.2984954 &  0.1322322  & -2.257  &  0.0266 * \\  
+season9  &    -0.6072090  & 0.1322867  & -4.590 & 1.56e-05 *** \\
+season10  &   -0.6909226 &  0.1323485  & -5.220 & 1.30e-06 *** \\
+season11  &   -0.7246362 &  0.1324174  & -5.472 & 4.61e-07 *** \\
+season12  &   -0.6583499 &  0.1324936  & -4.969 & 3.56e-06 *** \\
+\hline \\[-1.8ex] 
+\bottomrule
+ \end{tabular}
+ \begin{tablenotes}
+      \small
+      \item Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+\item Residual standard error: 0.2641 on 83 degrees of freedom
+\item Multiple R-squared:  0.9832,	Adjusted R-squared:  0.9807  
+\item F-statistic: 403.8 on 12 and 83 DF,  p-value: < 2.2e-16
+\end{tablenotes}
+  \end{threeparttable}
+\end{table} 
+
+\break
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot5.eps} 
+\label{fig:5}
+\end{center}
+\caption{Regression residuals from Trend Forecast}
+\end{figure}
+
+\break
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot6.eps} 
+\label{fig:6}
+\end{center}
+\caption{Regression residuals from Seasonal Forecast}
+\end{figure}
+
+\break
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot7.eps} 
+\label{fig:7}
+\end{center}
+\caption{Regression residuals from  Trend with Seasonal and Forecast}
+\end{figure}
+
+\break
+
+ 
+ \newpage
+ \section{Coefficient of Variation(CV)}
+ The Coefficient of Variation (CV) is the ratio of the Standard deviation to the mean. For the purpose of this assignment, we use it to compare dispersion of our model values to the actual values. The decision rule is based on the lower CV, which signifies that our model is a close representation of the actual data. The values reported in table below represents the CV for each model. The CV of the Trend and Seasonal model has a value of 0.08 and is the lowest amongst the three model further supporting our decision in selecting the Trend with Seasonal dummies model as the best model.
+ 
+ \begin{table}[!htbp] \centering 
+  \caption{Coefficients of variation.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}cccc} 
+& \textbf{Trend} & \textbf{Season} & \textbf{Trend and Season} \\ 
+\hline \\[-1.8ex] 
+CV & $0.143$ & $4.417$ & $0.081$  \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table}
+
+ \section{Forecasting Over The Test Set}
+The three regression model forecast over the test set is visually reported in figures 8,9, 10.  Graphically the seasonal model does a good job accounting for seasonality patterns in the data although we can see from the data that this forecast is way off from the observed declining trend in the data. The trend model fixes this problem but misses the seasonal fluctuations in the data. Once again, the Trend and seasonal model comes out top amongst the three models. Measures of accuracy (RMSE and MAPE) are also reported in a table and based on this values we can clearly Justify our selection of the Trend with Seasonal dummies forecasting model.
+\break
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot8.eps} 
+\label{fig:8}
+\end{center}
+\caption{ Trend Regression Forecast}
+\end{figure}
+
+\break
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot9.eps} 
+\label{fig:9}
+\end{center}
+\caption{ Seasonal Regression Forecast}
+\end{figure}
+
+\break
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot10.eps} 
+\label{fig:10}
+\end{center}
+\caption{ Trend with Seasonal Regression Forecast}
+\end{figure}
+
+\break
+
+\begin{table}[!htbp] \centering 
+  \caption{Measures of forecast accuracy.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& & RMSE & MAPE  \\ 
+\hline \\[-1.8ex] 
+\textbf{Trend} & Training set & $0.371$  & $4.910$  \\ 
+& Test set & $0.715$  & $16.703$ \\ 
+\textbf{Seasonal} & Training set & $1.839$ & $26.686$   \\ 
+& Test set & $2.992$ & $75.925$  \\ 
+\textbf{Trend and seasonal} & Training set & $0.246$ & $3.584$ \\ 
+& Test set & $0.597$ & $15.113$  \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\break
+
+
+The trend with Seasonal forecast model proves to be the most accurate model when working with the Unemployment rate data. This is due to the strong declining trend observable from figure 1 as well as seasonal fluctuations noticeable in the data. The Trend with seasonal dummies forecast model does a good job accounting for each characteristic of the Unemployment rate data. The Forecast values generated using each Regression are reported in the tables below.
+
+\begin{table}[!htbp] \centering 
+  \caption{Trend only forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 3.59 & 3.52  & 3.45 & 3.39  & 3.32 & 3.25 & 3.19 &  3.12  & 3.05& 2.99  & 2.92 & 2.85 \\
+2019 & 2.78 & 2.72 & 2.65 & 2.58  & 2.52 & 2.45 &  2.38  & 2.32 & 2.25 & 2.18  & 2.11  & 2.05 \\
+2020 & 1.98 & 1.91 & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Seasonal only forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 7.65  & 7.45  & 7.19  & 6.60  & 6.65  & 7.06  & 7.14  & 6.89  & 6.51  & 6.36  & 6.26 & 6.26 \\
+2019 & 7.65 & 7.45  & 7.19  & 6.60  & 6.65  & 7.06 & 7.14 & 6.89 &6.51 & 6.36  & 6.26 & 6.26  \\
+2020 & 7.65 & 7.45  & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Trend and seasonal forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 4.07  & 3.87 & 3.61 & 3.02  & 3.07  & 3.48 & 3.56  & 3.31 & 2.93 & 2.78 & 2.68  & 2.68 \\
+2019 & 3.28  & 3.08  & 2.81 & 2.23 & 2.28 & 2.69  & 2.76  & 2.51  & 2.14  & 1.99  & 1.89& 1.89 \\
+2020 & 2.48  & 2.28 & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\section{Future Forecast}
+The trend with seasonal dummies model is chosen as our favorite model and used to create a forecast over the next 12 month period. The forecasted values are reported in the table below and a visual representation is displayed in figure 11.
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Trend and seasonal model forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccccccccccccc}   
+& \textbf{Jan} & \textbf{Feb} & \textbf{Mar} & \textbf{Apr} & \textbf{May} & \textbf{Jun} & \textbf{Jul} & \textbf{Aug} & \textbf{Sep} & \textbf{Oct} & \textbf{Nov} & \textbf{Dec} \\
+\hline \\[-1.8ex]   
+2020 & - & - & 2.73 & 2.16 & 2.20 & 2.63 & 2.70 & 2.46 & 2.08 & 1.95 & 1.87 & 1.90 \\
+2021 & 2.57 & 2.37 & - & - & - & - & - & - & - & - & - & -  \\
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=1]{LRplot14.eps} 
+\label{fig:11}
+\end{center}
+\caption{ Trend with Seasonal Regression Forecast}
+\end{figure}
+
+
+The forecast predicts the declining trend to generally continue over the next year with seasonal spikes in the unemployment rate occurring in the middle of the year (summer time) due to an increase in the Labour Force Participation rate around this period. The Unemployment rate stabilizes at the end of the year and continues declining in 2021.
+
+
+
+
+\newpage
+\section{Appendices}
+\subsection{\textbf{R Code}}
+\begin{verbatim}
+setwd("X:/")
+
+install.packages("ggplot2")
+install.packages("forecast")
+install.packages("fpp2")
+library(ggplot2)
+library(forecast)
+library(fpp2)
+
+df<-read.csv("Unemployment Rate Data.csv", header = TRUE)
+unrate<-df$UNRATENSA
+
+#create time series
+ts_unrate<- ts(unrate,start=c(2010,1),end=c(2020,2), frequency=12)
+
+#Q1
+autoplot(ts_unrate) + ggtitle("Civilian Monthly Unemployment Rate") +
+  xlab("Month") + ylab("Unemployment Rate (in %)")
+ggseasonplot(ts_unrate, year.labels=TRUE, year.labels.left=TRUE) +
+  ylab("Unemployment Rate (in %)") + ggtitle("Seasonal plot: Monthly Unemployment Rate")
+
+#Q2
+ggAcf(ts_unrate, lag=10) + ggtitle("Civilian Monthly Unemployment Rate Correlogram") +
+  xlab("Lag") + ylab("ACF")
+unrate_auto_corr<- ggAcf(ts_unrate, plot = FALSE)
+unrate_auto_corr_10<-unrate_auto_corr[1:10,]
+
+#Q3
+unrtrain<-window(ts_unrate,start=c(2010,1), end=c(2017,12)) 
+unrtest<-window(ts_unrate, start=c(2018,1), end=c(2020,2))
+
+#a) Forecasts
+meanf<-meanf(unrtrain,h=96)
+meanf_list<-meanf$mean
+naive<-naive(unrtrain, h=96)
+naive_list<-naive$mean
+snaive<-snaive(unrtrain, h=96)
+snaive_list<-snaive$mean
+
+#b) Plot forecasts
+autoplot(ts_unrate) + ggtitle("Civilian Monthly Unemployment Rate") + xlab("Year") + ylab("Unemployment Rate (in %)")
+
+autoplot(unrtrain) + autolayer(unrtest, series='Test Data') + autolayer(meanf$mean, series="Mean") +
+  autolayer(naive$mean, series="Naive") + autolayer(snaive$mean, series="Seasonal Naive") + 
+  ggtitle("Forecasts for Civilian Monthly Unemployment Rate") + 
+  xlab("Year") + ylab("Unemployment Rate (in %)") + guides(colour=guide_legend(title="Forecasts"))
+
+#c) Accuracy
+unr_acc<-window(ts_unrate, start=2018)
+accuracy(meanf, unr_acc)
+accuracy(naive, unr_acc)
+accuracy(snaive, unr_acc)
+
+#Q4
+#trend
+trend_reg<-tslm(unrtrain ~ trend)
+summary(trend_reg)
+checkresiduals(trend_reg)
+#seasonal
+seas_reg<-tslm(unrtrain ~ season)
+summary(seas_reg)
+checkresiduals(seas_reg)
+#trend and seas
+trend_seas_reg<-tslm(unrtrain ~ trend + season)
+summary(trend_seas_reg)
+checkresiduals((trend_seas_reg))
+
+summary(trend_reg)
+summary(seas_reg)
+summary(trend_seas_reg)
+
+#Q5
+bestmodel<-rbind(CV(trend_reg), CV(seas_reg), CV(trend_seas_reg))
+bestmodel
+
+#Q6
+unr_forecast<-window(ts_unrate, start=2010, end=c(2020,2)) 
+#trend
+forecast_trend<-forecast(trend_reg, newdata = unr_forecast)
+autoplot(ts_unrate, series="Data")+autolayer(forecast_trend, level = FALSE,PI = TRUE,series="Fitted") +
+  xlab("Month") +ylab("Unemployment Rate (in %)") +
+  ggtitle("Trend: Civilian Monthly Unemployment Rate")
+#season
+forecast_season<-forecast(seas_reg, newdata = unr_forecast)
+autoplot(ts_unrate, series="Data")+autolayer(forecast_season, level = FALSE,PI = TRUE,series="Fitted") +
+  xlab("Month") +ylab("Unemployment Rate (in %)") + ggtitle("Seasonal: Civilian Monthly Unemployment Rate")
+#trend and season
+forecast_trend_season<-forecast(trend_seas_reg, newdata = unr_forecast)
+autoplot(ts_unrate, series="Data") +
+  autolayer(forecast_trend_season, level = FALSE ,PI = TRUE ,series="Fitted") +
+  xlab("Month") + ylab("Unemployment Rate (in %)") +
+  ggtitle("Trend and Season: Civilian Monthly Unemployment Rate")
+
+#Q7
+forecast_accuracy<-rbind(accuracy(forecast_trend, unr_forecast),
+                        accuracy(forecast_season, unr_forecast), accuracy(forecast_trend_season, unr_forecast))
+forecast_accuracy
+
+
+#Q8
+finale_tslm<-tslm(ts_unrate~ trend + season)
+finale_tslm_for<-forecast(finale_tslm, h=12)
+autoplot(ts_unrate) + ggtitle("Civilian Monthly Unemployment Rate") + xlab("Year") + ylab("Unemployment Rate (in %)")
+autoplot(ts_unrate) + autolayer(forecast(finale_tslm, h=12), series="Trend with season Regression Forecasts") +
+  ggtitle("12-Month Forecast for Civilian Monthly Unemployment Rate (Trend with season)") + xlab("Year") + ylab("Unemployment Rate (in %)")
+finale_tslm_for
+
+\end{verbatim}
+
+
+\end{document}

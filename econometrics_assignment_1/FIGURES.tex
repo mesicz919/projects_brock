@@ -1,0 +1,300 @@
+\documentclass{article}
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+
+
+\begin{document}
+
+\begin{table}[!htbp] \centering
+\caption{Correlogram and Autocorrelation values.}
+\label{}
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+& Lag & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
+\hline \\[-1.8ex]
+& Correlation & $0.963$ & $0.925$ & $0.893$ & $0.881$ & $0.875$ & $0.856$ & $0.829$ & $0.796$ & $0.769$ & $0.755$  \\
+\hline \\[-1.8ex]
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp] \centering 
+  \caption{Mean forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\
+\hline \\[-1.8ex] 
+2018 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 &  6.835417 &  6.835417 & 6.835417 \\
+2019 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 & 6.835417 \\
+2020 & 6.835417 & 6.835417 & - & - & - & - & - & - & - & - & - & -\\   
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+                                                 
+  
+\begin{table}[!htbp] \centering 
+  \caption{Naive forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\
+2018 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 \\
+2019 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 & 3.9 \\
+2020 & 3.9 & 3.9 & - & - & - & - & - & - & - & - & - & - \\
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Seasonal naive forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 5.1 & 4.9 & 4.6 & 4.1 & 4.1 & 4.5 & 4.6 & 4.5 & 4.1 & 3.9 & 3.9 & 3.9 \\
+2019 & 5.1 & 4.9 & 4.6 & 4.1 & 4.1 & 4.5 & 4.6 & 4.5 & 4.1 & 3.9 & 3.9 & 3.9 \\
+2020 & 5.1 & 4.9 & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Measures of accuracy.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & & RMSE & MAE & MAPE & MASE \\ 
+\hline \\[-1.8ex] 
+\textbf{Average} & Training set & $1.892$ & $1.685$ & $27.145$ & $2.240$ \\ 
+& Test set & $3.064$ & $3.043$ & $81.842$ & $4.045$ \\ 
+\textbf{Naive} & Training set & $0.349$ & $0.279$ & $4.242$ & $0.371$ \\ 
+& Test set & $0.374$ & $0.315$ & $8.585$ & $0.419$ \\ 
+\textbf{Seasonal Naive} & Training set & $0.816$ & $0.752$ & $12.172$ & $1$ \\ 
+& Test set & $0.642$ & $0.608$ & $16.164$ & $0.808$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Trend-only regression results.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+ \toprule
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Call: tslm(formula = unrtrain $\sim$ trend) & & & & & \\
+\midrule
+Residuals:  \\
+Min    &    1Q  &  Median    &    3Q    &   Max \\
+-0.70106 & -0.30502  & 0.00026  & 0.26722 &  0.89454 \\
+\\
+Coefficients:  \\
+  &      Estimate & Std. Error & t value & Pr(>|t|)   \\ 
+(Intercept) & 10.082982  &  0.077165 &  130.67  &  <2e-16 *** \\
+trend   &     -0.066960 &   0.001381 &  -48.47  &  <2e-16 ***  \\
+\hline \\[-1.8ex] 
+\bottomrule
+ \end{tabular}
+ \begin{tablenotes}
+      \small
+      \item Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+\item Residual standard error: 0.3751 on 94 degrees of freedom
+\item Multiple R-squared:  0.9615,	Adjusted R-squared:  0.9611
+\item F-statistic:  2349 on 1 and 94 DF,  p-value: < 2.2e-16
+\end{tablenotes}
+  \end{threeparttable}
+\end{table} 
+
+
+
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Seasonal dummies-only regression results.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+ \toprule
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Call: \\
+tslm(formula = \\
+unrtrain $\sim$ season) \\
+\midrule
+Residuals: \\
+ &  Min  &    1Q & Median  &    3Q   &  Max \\
+& -2.587 & -1.669 & -0.075 &  1.581 &  3.038 \\
+\\
+Coefficients: \\
+     &        Estimate & Std. Error & t value & Pr(>|t|)    \\
+(Intercept) &   7.6500   &   0.6951 &  11.006  &  <2e-16 *** \\
+season2    &   -0.2000  &    0.9830 &  -0.203  &   0.839     \\
+season3   &    -0.4625  &    0.9830  & -0.470  &   0.639    \\
+season4    &   -1.0500   &   0.9830 & -1.068  &   0.289    \\
+season5    &   -1.0000  &    0.9830 &  -1.017  &   0.312    \\
+season6   &    -0.5875  &    0.9830 &  -0.598   &  0.552    \\
+season7   &    -0.5125  &    0.9830 &  -0.521  &   0.603    \\
+season8   &    -0.7625  &    0.9830 &  -0.776  &   0.440   \\ 
+season9    &   -1.1375  &    0.9830  & -1.157  &   0.250    \\
+season10   &   -1.2875  &    0.9830 &  -1.310   &  0.194    \\
+season11    &  -1.3875  &    0.9830  & -1.411   &  0.162    \\
+season12  &    -1.3875   &   0.9830 &   -1.411  &   0.162    \\
+\hline \\[-1.8ex] 
+\bottomrule
+ \end{tabular}
+ \begin{tablenotes}
+      \small
+      \item Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+\item Residual standard error: 1.966 on 84 degrees of freedom
+\item Multiple R-squared:  0.0555,	Adjusted R-squared:  -0.06818 
+\item F-statistic: 0.4487 on 11 and 84 DF,  p-value: 0.9288
+\end{tablenotes}
+  \end{threeparttable}
+\end{table} 
+
+
+
+
+\begin{table}[!htbp] \centering 
+\begin{threeparttable}
+  \caption{Trend with seasonal dummies regression results.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccc} 
+ \toprule
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Call: \\
+tslm(formula = \\
+unrtrain $\sim$ trend + season) \\
+\midrule\
+Residuals: \\
+ & Min   &    1Q  & Median  &     3Q  &    Max \\
+& 0.4944 & -0.1761 &  0.0375 &   0.2221  & 0.4523 \\
+\\
+Coefficients: \\
+     &         Estimate & Std. Error & t value & Pr(>|t|)    \\
+(Intercept) & 10.5003142 &  0.1024510 & 102.491 &  < 2e-16 *** \\
+trend    &    -0.0662864  & 0.0009804 & -67.614  & < 2e-16 *** \\
+season2  &    -0.1337136  & 0.1320577  & -1.013   & 0.3142    \\
+season3   &   -0.3299272  & 0.1320686  & -2.498 &   0.0145 * \\ 
+season4  &    -0.8511409  & 0.1320868  & -6.444 & 7.22e-09 *** \\
+season5  &    -0.7348545 &   0.1321122 &  -5.562 & 3.17e-07 *** \\
+season6  &    -0.2560681 &  0.1321450 &  -1.938  &  0.0561 .  \\
+season7   &   -0.1147817  & 0.1321850  & -0.868  &  0.3877    \\
+season8   &   -0.2984954 &  0.1322322  & -2.257  &  0.0266 * \\  
+season9  &    -0.6072090  & 0.1322867  & -4.590 & 1.56e-05 *** \\
+season10  &   -0.6909226 &  0.1323485  & -5.220 & 1.30e-06 *** \\
+season11  &   -0.7246362 &  0.1324174  & -5.472 & 4.61e-07 *** \\
+season12  &   -0.6583499 &  0.1324936  & -4.969 & 3.56e-06 *** \\
+\hline \\[-1.8ex] 
+\bottomrule
+ \end{tabular}
+ \begin{tablenotes}
+      \small
+      \item Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+\item Residual standard error: 0.2641 on 83 degrees of freedom
+\item Multiple R-squared:  0.9832,	Adjusted R-squared:  0.9807  
+\item F-statistic: 403.8 on 12 and 83 DF,  p-value: < 2.2e-16
+\end{tablenotes}
+  \end{threeparttable}
+\end{table} 
+
+\begin{table}[!htbp] \centering 
+  \caption{Coefficients of variation.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}cccc} 
+& \textbf{Trend} & \textbf{Season} & \textbf{Trend and Season} \\ 
+\hline \\[-1.8ex] 
+CV & $0.143$ & $4.417$ & $0.081$  \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table}
+
+\begin{table}[!htbp] \centering 
+  \caption{Trend only forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 3.587851 & 3.520891  & 3.453931 & 3.386971  & 3.320010 & 3.253050 & 3.186090 &  3.119130  & 3.052170& 2.985210  & 2.918250 & 2.851290 \\
+2019 & 2.784329 & 2.717369 & 2.650409 & 2.583449  & 2.516489 & 2.449529 &  2.382569  & 2.315609 & 2.248648 & 2.181688  & 2.114728  & 2.047768 \\
+2020 & 1.980808 & 1.913848 & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Seasonal only forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 7.6500  & 7.4500  & 7.1875  & 6.6000  & 6.6500  & 7.0625  & 7.1375  & 6.8875  & 6.5125  & 6.3625  & 6.2625 & 6.2625 \\
+2019 & 7.6500 & 7.4500  & 7.1875  & 6.6000  & 6.6500  & 7.0625 & 7.1375 & 6.8875 &6.5125 & 6.3625  & 6.2625 & 6.2625  \\
+2020 & 7.6500 & 7.4500  & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Trend and seasonal forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccccccccccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex]          
+& Jan & Feb & Mar & Apr & May & Jun & Jul & Aug & Sep & Oct & Nov & Dec \\                            
+2018 & 4.070536  & 3.870536 & 3.608036 & 3.020536  & 3.070536  & 3.483036 & 3.558036  & 3.308036 & 2.933036 & 2.783036 & 2.683036  & 2.683036 \\
+2019 & 3.275099  & 3.075099  & 2.812599 & 2.225099 & 2.275099 & 2.687599  & 2.762599  & 2.512599  & 2.137599  & 1.987599  & 1.887599 & 1.887599 \\
+2020 & 2.479663  & 2.279663 & - & - & - & - & - & - & - & - & - & - \\  
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Measures of forecast accuracy.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& & RMSE & MAPE  \\ 
+\hline \\[-1.8ex] 
+\textbf{Trend} & Training set & $0.371$  & $4.910$  \\ 
+& Test set & $0.715$  & $16.703$ \\ 
+\textbf{Seasonal} & Training set & $1.839$ & $26.686$   \\ 
+& Test set & $2.992$ & $75.925$  \\ 
+\textbf{Trend and seasonal} & Training set & $0.246$ & $3.584$ \\ 
+& Test set & $0.597$ & $15.113$  \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+
+
+\begin{table}[!htbp] \centering 
+  \caption{Trend and seasonal model forecasts.} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} cccccccccccccccc}   
+& \textbf{Jan} & \textbf{Feb} & \textbf{Mar} & \textbf{Apr} & \textbf{May} & \textbf{Jun} & \textbf{Jul} & \textbf{Aug} & \textbf{Sep} & \textbf{Oct} & \textbf{Nov} & \textbf{Dec} \\
+\hline \\[-1.8ex]   
+2020 & - & - & 2.732105 & 2.162105 & 2.202105 & 2.632105 & 2.702105 & 2.462105 & 2.082105 & 1.952105 & 1.872105 & 1.902105 \\
+2021 & 2.571388 & 2.371388 & - & - & - & - & - & - & - & - & - & -  \\
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+
+\end{document}
